@@ -1,0 +1,173 @@
+.intro_cont{
+    margin-top: 70px;
+    height: 364px;
+    background: url(../img/pushkin_image.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.intro_title{
+    background-color: white;
+    padding: 38px;
+    
+}
+
+.intro_word{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #1D1D1D;
+    text-align: center;
+}
+
+.intro_cook{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+}
+
+.intro_title_main{
+    padding: 0 auto;
+    padding-bottom: 62px;
+}
+
+.intro_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time_delivery{
+    background-color: #262626;
+    border-radius: 16px;
+}
+
+.time_delivery_word{
+    margin: 8px 16px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+
+
+#tabs .tab_cont .tab {
+   /* display: inline-block;*/
+     /* выстраиваем вкладки в один ряд */
+    cursor: pointer;
+    position: relative;
+    z-index:5;
+    padding-right: 30px; 
+    padding-left:30px;
+    padding-bottom: 29px;
+    color:rgb(58, 58, 58);
+    transition: .2s linear;
+    padding-top: 32px;
+}
+#tabs .tab_cont .whiteborder {
+    color:black;
+    border-bottom: 5px solid #57AD56;;
+}
+#tabs .tabContent {
+    position: relative;
+    top: -1px; 
+    z-index:1;
+    transition: .5s linear;
+}
+#tabs .hide {
+    display: none;
+}
+#tabs .show {
+    display: block;
+}
+
+.tabContent{
+    margin-top: 56px;
+}
+
+.tabs_block{
+    padding-bottom: 30px;
+}
+
+.tab_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+    margin-bottom: 32px;
+}
+
+.tab_cont{
+    border-bottom: 1px solid rgb(58, 58, 58);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food_card{
+    margin-bottom: 40px;
+    transition: transform .2s ease-in-out;
+}
+
+.food_card:hover, .food_card:focus, .food_card:active{
+    transform: translate3d(0px, -10px, 0px);
+}
+
+.food_card_picture{
+    width: 100%;
+}
+
+
+.food_card_title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.food_card_subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.food_card_price{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 21px;
+    margin-top: 10px
+}
+
+
+
+
+.new_notice{
+    position: absolute;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 35px;
+    line-height: 13px;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 1px rgba(0,0,0,0.5);
+    -webkit-text-fill-color: white;
+
+
+}
+
+

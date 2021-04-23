@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UberEats Рестораны</title>
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./"></script>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="header_wrapper">
+                    <div class="header_logo">
+                        <a href="index.html" class="header-logo-link">
+                            <img src="./img/logo_uber.svg" alt="UBER EATS" class="header-logo-pic">
+                        </a>
+                    </div>
+
+                    <div class="header_nav">
+                        <ul class="geoposition">
+                            <li class="li_geo">
+                            <div class="city_menu">
+                                <img src="/img/geopos.svg" alt="Geoposition" class="geopos_pic">
+                                <p class="city">
+                                Москва
+                                </p> 
+                                <img src="./img/arrow_down_pic.svg" alt="Arrow" class="arrowdown">
+                            </div>
+                            
+                            <ul>
+                                <li>
+                                    <a href="#!" class="submenu_city_link">Санкт-Петербург</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_city_link">Новороссийск</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_city_link">Волгоград</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_city_link">Лиски</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_city_link">Архангельск</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_city_link">Минск</a>
+                                </li>
+                            </ul>
+
+                            </li>
+                        </ul>
+
+                        <button class="btn">
+                            Войти
+                        </button>
+    
+                        <div class="header_basket">
+                            <a href="service.html" class="header_busket_link">
+                                <img src="./img/basket.svg" alt="basket" class="header_basket_pic">
+                            </a>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </header> 
+    <!--header end-->
+
+
+
+
+
+    <main class="main">
+        <!--search start-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 search">
+                    <form action="get" class="search_form">
+                        <fieldset class="search_wrap">
+                            <input type="text" class="search_from_field col-xs-12" placeholder="Поиск по ресторанам и кухням">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--search end-->
+
+        <!--cards start-->
+        <section class="cards">
+            <div class="container">
+
+                <div class="cards_title">
+                    <p class="cards_title_name">Рестораны в Москве</p>
+                </div>
+
+                <div class="row"> 
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                    <a href="rest.html" class="card_link">
+                        <img src="./img/mc_pic.jpg" alt="McDonalds" class="card_rest_pic" target="_blank">
+                        <h3 class="card_title">Макдоналдс — Газетный</h3>
+                        <p class="card_inscrip">₽₽ • Бургеры</p>
+                        <p class="card_delivery">25 - 35 мин</p>
+                    </a>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                        <a href="rest.html" class="card_link">
+                            <img src="./img/dimsum_pic.jpg" alt="Dimsum" class="card_rest_pic" target="_blank">
+                            <h3 class="card_title">DimSum & Co — ЦДМ</h3>
+                            <p class="card_inscrip">₽ • Японская • Китайская • Азиатская</p>
+                            <p class="card_delivery">40 - 50 мин</p>
+                        </a>
+                        </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                    <a href="rest.html" class="card_link">
+                        <img src="./img/dvizhok_pic.jpg" alt="Dvizhok" class="card_rest_pic" target="_blank">
+                        <h3 class="card_title">ДвижОК — Манежная</h3>
+                        <p class="card_inscrip">₽ • Американская • Европейская</p>
+                        <p class="card_delivery">35 - 45 мин</p>
+                    </a>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                    <a href="rest.html" class="card_link">
+                        <img src="./img/nya_pic.jpg" alt="Nya" class="card_rest_pic" target="_blank">
+                        <h3 class="card_title">НЯ — NHA</h3>
+                        <p class="card_inscrip">₽₽ • Вьетнамская</p>
+                        <p class="card_delivery">30 - 40 мин</p>
+                    </a>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                    <a href="rest.html" class="card_link">
+                        <img src="./img/tochka_pic.jpg" alt="Tochka Dzi" class="card_rest_pic" target="_blank">
+                        <h3 class="card_title">Точка Дзы — Цветной</h3>
+                        <p class="card_inscrip">₽₽ • Вьетнамская</p>
+                        <p class="card_delivery">40 - 50 мин</p>
+                    </a>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                    <a href="rest.html" class="card_link">
+                        <img src="./img/cin_pic.jpg" alt="Cinnabon" class="card_rest_pic" target="_blank">
+                        <h3 class="card_title">Cinnabon</h3>
+                        <p class="card_inscrip">₽ • Выпечка • Десерты • Капкейки</p>
+                        <p class="card_delivery">25 - 35 мин</p>
+                    </a>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                    <a href="rest.html" class="card_link">
+                        <img src="./img/pizzelove_pic.jpg" alt="Pizzelove" class="card_rest_pic" target="_blank">
+                        <h3 class="card_title">PIZZELOVE</h3>
+                        <p class="card_inscrip">₽₽ • Пицца</p>
+                        <p class="card_delivery">15 - 25 мин</p>
+                    </a>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                    <a href="rest.html" class="card_link">
+                        <img src="./img/zu_kafe_pic.jpg" alt="Zu kafe" class="card_rest_pic" target="_blank">
+                        <h3 class="card_title">Zю кафе — Тверская</h3>
+                        <p class="card_inscrip">₽₽ • Японская</p>
+                        <p class="card_delivery">25 - 35 мин</p>
+                    </a>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 col-lg-4 card">
+                    <a href="rest.html" class="card_link">
+                        <img src="./img/barbq_pic.jpg" alt="Bar BQ" class="card_rest_pic" target="_blank">
+                        <h3 class="card_title">Bar BQ Cafe — Манежная</h3>
+                        <p class="card_inscrip">₽₽₽ • Европейская</p>
+                        <p class="card_delivery">30 - 40 мин</p>
+                    </a>
+                    </div>
+
+                </div>
+
+                <div class="btn_cont">
+                    <button class="btn_more">
+                        Показать еще
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!--cards end-->
+    </main>
+    
+    <!--footer start-->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 footer_logo_cont">
+                    <div class="footer_logo">
+                        <img src="./img/logo_uber_footer.svg" alt="UberEatS" class="footer_logo_pic" target="_blank">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row footer_main_cont">
+                <div class="col-xs-12 col-md-4 col-lg-4 footer_cont">
+                    
+                        <ul class="choose_lang">
+                            <li>
+                            <div class="lang_title">
+                                <div class="lang">
+                                    <img src="./img/world_pic.svg" alt="Choose language" class="world_pic" target="_blank">
+                                <a href="#!" class="submenu_lang">Русский</a>
+                                </div>
+                                <div class="arrow_down_footer">
+                                    <img src="./img/arrow_down_footer.svg" alt="Choose language" class="arrow_down_footer_pic" target="_blank">
+                                </div>
+                                
+                            </div>
+
+                            <ul>
+                                <li>
+                                    <a href="#!" class="submenu_lang">English</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_lang">Deutschh</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_lang">Français</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_lang">日本語</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="submenu_lang">Українська мова</a>
+                                </li>
+                            </ul>
+                            </li>
+                        </ul>
+
+                        <div class="uber_logo_title">
+                            <p class="uber_logo_footer_resh">#</p>
+                            <p class="uber_logo_title_ub">UberEats</p>
+                        </div>
+
+                        <div class="social">
+                            <div class="social_cont">
+                                <a href="service.html" class="facebook_link">
+                                    <img src="./img/facebook_pic.svg" alt="Facebook" class="facebook_pic">
+                                </a>
+                            </div>
+
+                            <div class="social_cont">
+                                <a href="service.html" class="twitter_link">
+                                    <img src="./img/twitter_pic.svg" alt="twitter" class="twitter_pic">
+                                </a>
+                            </div>
+
+                            <div class="social_cont">
+                                <a href="service.html" class="instagram_link">
+                                    <img src="./img/instagram_pic.svg" alt="instagram" class="instagram_pic">
+                                </a>
+                            </div>
+                            
+                        </div>  
+                </div>
+
+
+                
+                <div class="col-xs-12 col-md-4 col-lg-4 footer_cont">
+                    <div class="footer_link_cont">
+                        <a href="service.html" class="footer_links">
+                            <p>Об UberEats</p>
+                        </a>
+                    </div>
+
+                    <div class="footer_link_cont">
+                        <a href="service.html" class="footer_links">
+                            <p>Станьте партнёром по доставке</p>
+                        </a>
+                    </div>
+
+                    <div class="footer_link_cont">
+                        <a href="service.html" class="footer_links">
+                            <p>Станьте партнёром-рестораном</p>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-4 col-lg-4 footer_cont">
+                    <div class="footer_link_cont">
+                        <a href="service.html" class="footer_links">
+                            <p>Все города</p>
+                        </a>
+                    </div>
+
+                    <div class="footer_link_cont">
+                        <a href="service.html" class="footer_links">
+                            <p>Цены</p>
+                        </a>
+                    </div>
+
+                    <div class="footer_link_cont">
+                        <a href="service.html" class="footer_links">
+                            <p>Помощь</p>
+                        </a>
+                    </div>
+
+                    <div class="footer_link_cont">
+                        <a href="service.html" class="footer_links">
+                            <p>FAQs</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mobile_apps">
+                <div class="download_app">
+                    <a href="service.html" class="appstore_link">
+                        <img src="./img/appstore_pic.svg" alt="Скачать в AppStore" class="appstore">
+                    </a>
+                </div>
+
+                <div class="download_app">
+                    <a href="service.html" class="google_play_link">
+                        <img src="./img/google_play_pic.svg" alt="Скачать в Google Play" class="google_play">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row info">
+                <div class="col-xs-12 col-md-4 col-lg-4 footer_into_cont">
+                    <a href="service.html" class="info_link">
+                        <p class="info_content">
+                            © 2017 Uber Technologies Inc.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-lg-4 footer_into_cont">
+                    <a href="service.html" class="info_link">
+                        <p class="info_content">
+                            Обработка персональных данных
+                        </p>
+                    </a>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-lg-4 footer_into_cont">
+                    <a href="service.html" class="info_link">
+                        <p class="info_content">
+                            Пользовательское соглашение
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="arrowTop" hidden>
+        <img src="/img/btn-up.png" alt="Наверх" class="arrow_top_pic">
+    </div>
+
+
+    <section class="accept_cookie_block">
+        <div class="container">
+            <p class="cookie_title">
+                На нашем сайте используются cookie-файлы и другие аналогичные технологии. <br> 
+                Если, прочитав это сообщение, вы остаетесь на нашем сайте, это означает, что вы не возражаете против использования этих технологий.
+            </p> 
+            <button class="accept_cookie" onclick="cookie_ac()">
+                 Принять
+            </button>
+            
+            <button class="read_more_cookie" onclick="cookie_link()">
+                Подробнее
+           </button>
+        </div>
+    </section>
+    <!--footer end-->
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
